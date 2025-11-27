@@ -1,0 +1,15 @@
+When a parent class reference points to a child class object, it is known as upcasting in Java.
+
+You can only access parent class methods/variables
+
+Even though the object is of the child class, the reference type decides what you can access.
+
+Parent p = new Child();
+
+Overridden methods run from the child class
+
+This is runtime polymorphism.
+
+Even if the reference is of the parent type, Java executes the child class override version of the method.
+
+Child-specific methods are NOT accessible
